@@ -1,0 +1,27 @@
+{
+  "name": "zephir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/scss -o dist/css",
+    "webpack": "webpack",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "node": "^15.10.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
