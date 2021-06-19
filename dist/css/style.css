@@ -121,12 +121,11 @@ main {
     header a {
       display: none; }
     header h2 {
-      display: none; }
-  .competences .part {
-    display: flex;
-    flex-direction: column; } }
+      display: none; } }
 
 @media screen and (max-width: 700px) {
+  h2 {
+    line-height: 2.6rem; }
   main .information {
     display: none; }
   main .competences .part {
