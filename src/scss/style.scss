@@ -40,12 +40,19 @@ header {
   box-shadow: 0 8px 12px #0e0e23;
   border-radius: 10px;
   top: 2rem;
-  margin: 1rem 1rem 2rem 1rem;
-  padding: 1rem 2rem;
+  margin: 0 1rem;
+  padding: 0 2rem;
   left: 0;
   a {
     color: #9b9ca7;
     font-size: 2.5rem;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+    padding: 30px;
+    &:hover {
+      background: #11132c;
+      border-bottom: 3px solid #4255d4;
+    }
   }
   &:before {
     content: "";
@@ -56,6 +63,7 @@ header {
     left: 0;
     background-color: #0e0e23;
   }
+
   h1 {
     font-size: 4rem;
     transform: rotate(356deg);
