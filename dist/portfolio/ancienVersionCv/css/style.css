@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Lato", sans-serif;
+  background: var(--background); }
+
+ul {
+  list-style: none; }
+
+a {
+  color: var(--color-text);
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+.grid-container {
+  display: grid;
+  grid: "p t" auto "i ex" 1fr "f f" auto / 35vh auto;
+  min-height: 100vh; }
+
+.picture {
+  grid-area: p;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: var(--border) solid 1px;
+  background: var(--light);
+  padding: 3rem 0rem; }
+  .picture img {
+    max-width: 15rem;
+    border-radius: 50%; }
+
+.title {
+  grid-area: t;
+  background: linear-gradient(330deg, var(--purple-light), var(--purple));
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .title h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    opacity: 0.8; }
+
+.information-area {
+  grid-area: i;
+  border-right: var(--border) solid 1px;
+  background: var(--light);
+  padding: 2rem 3rem; }
+  .information-area .area {
+    padding-bottom: 3rem; }
+  .information-area h2 {
+    font-size: 1rem;
+    padding: 1.6rem 0rem;
+    letter-spacing: 0.2rem; }
+  .information-area h3 {
+    font-size: 0.9rem;
+    padding-bottom: 0.8rem; }
+  .information-area p {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem; }
+    .information-area p span {
+      font-size: 0.6rem; }
+  .information-area .bar-skill {
+    margin: 0.5rem 0rem;
+    height: 0.5rem;
+    background: var(--border);
+    position: relative; }
+    .information-area .bar-skill .bar-point100 {
+      position: absolute;
+      height: 0.8rem;
+      width: 0.8rem;
+      border-radius: 50%;
+      background: var(--grey);
+      left: calc(0% - 0.4rem);
+      top: -0.18rem;
+      transition: all 0.5s; }
+    .information-area .bar-skill .bar100 {
+      position: absolute;
+      height: 0.5rem;
+      top: 0rem;
+      left: 0rem;
+      width: 0%;
+      background: var(--pink);
+      transition: all 0.5s; }
+    .information-area .bar-skill .bar80 {
+      position: absolute;
+      height: 0.5rem;
+      top: 0rem;
+      left: 0rem;
+      width: 0%;
+      background: var(--pink);
+      transition: all 0.5s; }
+    .information-area .bar-skill .bar60 {
+      position: absolute;
+      height: 0.5rem;
+      top: 0rem;
+      left: 0rem;
+      width: 0%;
+      background: var(--pink);
+      transition: all 0.5s; }
+    .information-area .bar-skill .bar-point80 {
+      position: absolute;
+      height: 0.8rem;
+      width: 0.8rem;
+      border-radius: 50%;
+      background: var(--grey);
+      left: calc(0% - 0.4rem);
+      top: -0.18rem;
+      transition: all 0.5s; }
+    .information-area .bar-skill .bar-point60 {
+      position: absolute;
+      height: 0.8rem;
+      width: 0.8rem;
+      border-radius: 50%;
+      background: var(--grey);
+      left: calc(0% - 0.4rem);
+      top: -0.18rem;
+      transition: all 0.5s; }
+  .information-area:hover .bar100 {
+    width: 100%;
+    transition: 0.5s; }
+  .information-area:hover .bar-point100 {
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background: #303030;
+    left: calc(100% - 0.4rem);
+    top: -0.18rem;
+    transition: all 0.5s; }
+  .information-area:hover .bar80 {
+    width: 80%;
+    transition: 0.5s; }
+  .information-area:hover .bar-point80 {
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background: var(--grey);
+    left: calc(80% - 0.4rem);
+    top: -0.18rem;
+    transition: all 0.5s; }
+  .information-area:hover .bar60 {
+    width: 60%;
+    transition: 0.5s; }
+  .information-area:hover .bar-point60 {
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background: var(--grey);
+    top: -0.18rem;
+    left: calc(60% - 0.4rem);
+    transition: all 0.5s; }
+  .information-area i {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.5rem; }
+  .information-area .social-network {
+    display: flex;
+    align-items: center; }
+    .information-area .social-network i {
+      margin-bottom: 0rem;
+      padding: 0.5rem 0.8rem; }
+    .information-area .social-network p {
+      margin-bottom: 0rem; }
+    .information-area .social-network:hover {
+      background: #a7a6a6;
+      border-radius: 0.6rem;
+      transition: all 0.3s; }
+      .information-area .social-network:hover i {
+        color: var(--pink);
+        transform: scale(1.2);
+        transition: all 0.2s; }
+      .information-area .social-network:hover p {
+        color: black; }
+
+.experience-area {
+  grid-area: ex;
+  letter-spacing: 0.1rem;
+  line-height: 1.6rem;
+  margin: 0rem 4rem; }
+  .experience-area h2 {
+    font-size: 1.2rem;
+    padding: 3rem 0rem; }
+  .experience-area p {
+    font-size: 1rem; }
+  .experience-area .experience {
+    display: grid;
+    grid: "date title" auto "date entreprise" auto "date text" auto "date text" auto / 1fr 9fr;
+    padding-bottom: 3rem; }
+    .experience-area .experience .date {
+      grid-area: date;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      opacity: 0.6;
+      border-right: solid 1px grey;
+      margin-right: 2rem; }
+      .experience-area .experience .date p {
+        margin-right: 0.8rem; }
+  .experience-area h3 {
+    grid-area: title;
+    font-size: 1rem; }
+  .experience-area .entreprise {
+    grid-area: entreprise;
+    font-size: 1rem;
+    opacity: 0.6;
+    padding-bottom: 1.6rem; }
+  .experience-area p {
+    grid-area: text; }
+
+footer {
+  grid-area: f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #313131;
+  color: aliceblue;
+  padding: 5rem; }
+  footer form {
+    display: flex;
+    align-items: center; }
+  footer h2 {
+    padding-bottom: 1rem; }
+  footer i {
+    background: linear-gradient(to right, var(--purple-light), var(--purple));
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    color: aliceblue;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem; }
+  footer input {
+    min-width: 15rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    line-height: 1rem; }
+    footer input::placeholder {
+      color: var(--grey); }
+  footer button {
+    border: none;
+    background: none; }

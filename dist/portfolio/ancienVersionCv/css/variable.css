@@ -1,0 +1,10 @@
+:root {
+  --light: #d6d1d19f;
+  --border: #7e7e7e;
+  --purple: #92004a;
+  --purple-light: #e43f6f;
+  --grey: #303030;
+  --pink: #c32660; }
+
+.colored {
+  color: var(--pink); }

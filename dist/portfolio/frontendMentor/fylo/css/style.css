@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: azure;
+  box-sizing: border-box; }
+  * p {
+    line-height: 20px; }
+
+body {
+  max-width: 1250px;
+  margin: auto;
+  background: #181f2a; }
+
+a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: azure; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 32px; }
+  .container .header {
+    padding: 32px 0px 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end; }
+    .container .header img {
+      width: 100px; }
+  .container .illustration {
+    width: 60%;
+    margin-bottom: 80px; }
+    .container .illustration img {
+      max-width: 100%; }
+    .container .illustration h2 {
+      font-size: 34px;
+      margin: 21px; }
+    .container .illustration p {
+      margin-bottom: 20px; }
+    .container .illustration button {
+      border-radius: 20px;
+      width: 120px;
+      height: 40px;
+      border: none;
+      background: linear-gradient(to right, #64e1d9, #349fcc); }
+  .container .features {
+    display: grid;
+    grid: "f1 f2" 1fr "f3 f4" 1fr /1fr 1fr;
+    gap: 48px;
+    padding-bottom: 80px; }
+    .container .features:nth-child(n + 1) {
+      max-width: 70%; }
+      .container .features:nth-child(n + 1) img {
+        max-height: 70px;
+        margin-bottom: 20px; }
+      .container .features:nth-child(n + 1) h3 {
+        font-size: 18px;
+        margin-bottom: 16px; }
+      .container .features:nth-child(n + 1) p {
+        font-size: 14px; }
+    .container .features .feature1 {
+      grid-area: f1; }
+    .container .features .feature2 {
+      grid-area: f2; }
+    .container .features .feature3 {
+      grid-area: f3; }
+    .container .features .feature4 {
+      grid-area: f4; }
+  .container .productive {
+    padding-bottom: 80px;
+    display: grid;
+    grid: "img t" auto / 1fr 1fr;
+    gap: 48px; }
+    .container .productive img {
+      grid-area: img; }
+    .container .productive .motivation {
+      grid-template-rows: t;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: start; }
+      .container .productive .motivation h2 {
+        font-size: 32px;
+        padding-bottom: 20px; }
+      .container .productive .motivation p {
+        font-size: 14px; }
+      .container .productive .motivation a {
+        font-size: 16px;
+        padding-top: 20px;
+        color: cyan; }
+  .container .comment {
+    display: grid;
+    gap: 48px;
+    padding-bottom: 15rem;
+    grid: "c1 c2 c3" auto / 1fr 1fr 1fr; }
+    .container .comment:nth-child(n + 1) .id {
+      margin-top: 20px;
+      display: flex;
+      align-items: center; }
+      .container .comment:nth-child(n + 1) .id img {
+        max-width: 50px;
+        border-radius: 50px;
+        border: 2px solid azure; }
+      .container .comment:nth-child(n + 1) .id .info {
+        margin-left: 10px; }
+    .container .comment:nth-child(n + 1) p {
+      font-size: 14px;
+      text-align: start; }
+    .container .comment .case1 {
+      grid-area: c1;
+      background: #202a3c;
+      border-radius: 8px;
+      padding: 16px; }
+    .container .comment .case2 {
+      grid-area: c2;
+      background: #202a3c;
+      border-radius: 8px;
+      padding: 16px; }
+    .container .comment .case3 {
+      grid-area: c3;
+      background: #202a3c;
+      border-radius: 8px;
+      padding: 16px; }
+  .container footer {
+    position: relative;
+    background: #0b1523;
+    width: 100vw;
+    height: 20rem; }
+    .container footer .mail {
+      margin: auto;
+      position: absolute;
+      top: -25%;
+      left: 10%;
+      background-color: #202a3c;
+      padding: 2rem 5rem;
+      width: 80vw;
+      height: 15rem; }
+      .container footer .mail h2 {
+        padding-bottom: 2rem; }
+      .container footer .mail p {
+        padding-bottom: 1rem; }
+      .container footer .mail input {
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        padding: 0.2rem 10rem 0.2rem 1rem; }
+      .container footer .mail button {
+        border-radius: 15px;
+        border: none;
+        background: linear-gradient(to left, #349fcc, #64e1d9);
+        font-size: 20px;
+        padding: 0.2rem 2rem; }

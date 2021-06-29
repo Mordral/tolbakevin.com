@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  animation-duration: 0.75s;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: var(--background);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
