@@ -247,7 +247,7 @@ main {
     height: 100%;
     width: 0%;
     background-color: #87344c;
-    opacity: 70%;
+    opacity: 85%;
     transition-duration: 0.8s; }
   .cardsPortfolio h2 {
     font-size: 2.6rem;
@@ -281,7 +281,7 @@ main {
     transform: translateX(0); }
 
 .projet1 .fond {
-  background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+  background-image: url(../img/storage.jpg);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
@@ -290,7 +290,7 @@ main {
   background-size: 120%; }
 
 .projet2 .fond {
-  background-image: url(/inspirationImages/+WorA8.jpg);
+  background-image: url(../img/cars.jpg);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
@@ -299,7 +299,7 @@ main {
   background-size: 120%; }
 
 .projet3 .fond {
-  background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+  background-image: url(../img/office.jpg);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
@@ -308,7 +308,7 @@ main {
   background-size: 120%; }
 
 .projet4 .fond {
-  background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+  background-image: url(../img/calc.jpg);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
@@ -317,7 +317,7 @@ main {
   background-size: 120%; }
 
 .projet5 .fond {
-  background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+  background-image: url(../img/bot.jpg);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
@@ -326,7 +326,7 @@ main {
   background-size: 120%; }
 
 .projet6 .fond {
-  background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+  background-image: url(../img/todo.jpg);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
@@ -335,7 +335,7 @@ main {
   background-size: 120%; }
 
 .projet7 .fond {
-  background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+  background-image: url(../img/dice.png);
   background-size: 140%;
   background-position-x: 20%;
   background-position-y: 40%; }
