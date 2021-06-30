@@ -45,7 +45,8 @@ header {
   top: 2rem;
   margin: 0 1rem;
   padding: 0 2rem;
-  left: 0; }
+  left: 0;
+  z-index: 3; }
   header a {
     color: #9b9ca7;
     font-size: 2.5rem;
@@ -270,7 +271,8 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0; }
+    opacity: 0;
+    z-index: 2; }
   .cardsPortfolio:hover .fond {
     background-size: 130%; }
   .cardsPortfolio:hover .fondText {
