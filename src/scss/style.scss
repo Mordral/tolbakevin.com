@@ -279,23 +279,145 @@ main {
   border-radius: 10px;
   background: radial-gradient(circle, #1a2049 0%, #13162f 100%);
   line-height: 1.1rem;
-  height: 220px;
+  height: 250px;
   max-width: 450px;
   border-left: solid 1rem #dd7a1e;
-  overflow: scroll;
-  padding: calc(20px + 3vh);
-  p {
-    position: relative;
-    margin-right: 60%;
-    transform: scaleX(150%);
+  overflow: hidden;
+
+  .fond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
     transition-duration: 0.8s;
   }
+  .fondText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #87344c;
+    opacity: 70%;
+    transition-duration: 0.8s;
+  }
+  h2 {
+    font-size: 2.6rem;
+    color: #87344c;
+    position: relative;
+    transition-duration: 0.8s;
+    background-color: #dd7a1e;
+    padding: 1rem 10rem 1rem 1rem;
+    border-radius: 4px;
+  }
+  p {
+    position: relative;
+    margin: 3% 30% 0 0;
+    transition-duration: 0.8s;
+    transform: translateX(-151%);
+    transition-duration: 0.8s;
+    font-size: 1.6rem;
+  }
+  .link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+  }
+  &:hover {
+    .fond {
+      background-size: 130%;
+    }
+    .fondText {
+      width: 70%;
+    }
+    h2 {
+      transform: scale(1.2) translateX(8%) translateY(-0.2em);
+    }
+    p {
+      transform: translateX(0);
+    }
+  }
 }
-h3 {
-  font-size: 3rem;
-  padding-bottom: 3rem;
+.projet1 {
+  .fond {
+    background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
 }
-h4 {
-  font-size: 2.5rem;
-  padding-bottom: 2rem;
+.projet2 {
+  .fond {
+    background-image: url(/inspirationImages/+WorA8.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
+}
+.projet3 {
+  .fond {
+    background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
+}
+.projet4 {
+  .fond {
+    background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
+}
+.projet5 {
+  .fond {
+    background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
+}
+.projet6 {
+  .fond {
+    background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
+}
+.projet7 {
+  .fond {
+    background-image: url(/inspirationImages/thai-blue-pattern-design-png_238346.jpg);
+    background-size: 140%;
+    background-position-x: 20%;
+    background-position-y: 40%;
+  }
+  a:hover ~ .fond {
+    background-size: 120%;
+  }
 }
